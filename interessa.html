@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CU HOJE?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="painel">
+        <h1> CU HOJE ?</h1>
+
+       <a href="interessaa.html"><button id="yes"> SIM</button></a>
+        <button onmouseover="fuja()" id="no"> NÃO </button>
+    </div>
+
+    <script> 
+        function fuja(){
+            var botãoN = document.getElementById("no")
+
+            var lJanela = window.innerWidth;
+            var aJanela = window.innerHeight;
+
+            var maxX = lJanela - botãoN.offsetWidth; 
+            var maxY = aJanela - botãoN.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botãoN.style.left = aleatorioX + "px";
+            botãoN.style.top = aleatorioY + "px";
+        }
+    </script>
+</body>
+</html>

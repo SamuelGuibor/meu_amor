@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+   background-color: black;
+}
+
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-top: 200px;
+}
+
+.painel {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#Sim {
+    position: absolute;
+    height: 40px;
+    width: 60px; 
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+#Sim:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+}
+#Nao {
+    height: 40px;
+    width: 60px; 
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    margin-left: 70px;
+    font-family: "Poppins", sans-serif;
+}
+
+#Nao:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+}
+
+#alternativo {
+    font-family: "Poppins", sans-serif;
+    height: 40px;
+    width: 200px;
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    margin-left: 10px;
+}
+
+#alternativo:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.1)  
+}
+
+#yes {
+    height: 40px;
+    width: 60px; 
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: white;
+    margin-left: -60px;
+    background-color: blue;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+#no {
+    position: absolute;
+    height: 40px;
+    width: 60px; 
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+#yes:hover {
+    background-color: rgb(13, 13, 176);
+    color: white;
+}
+
+#no:hover {
+    background-color: rgb(13, 13, 176);
+    color: white;
+}
